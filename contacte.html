@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacte — Refem</title>
+<meta name="description" content="Explica'ns el teu pis o el teu catàleg d'immobiliària. Refem respon en menys de 48 hores.">
+<link rel="canonical" href="https://refem.es/contacte.html">
+<link rel="alternate" hreflang="ca" href="https://refem.es/contacte.html">
+<link rel="alternate" hreflang="es" href="https://refem.es/es/contacto.html">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="/" class="logo">refem<span>.</span></a>
+    <button class="nav-toggle" aria-label="Obrir menú" aria-expanded="false"></button>
+    <ul class="nav-links">
+      <li><a href="/">Inici</a></li>
+      <li><a href="/com-funciona.html">Com funciona</a></li>
+      <li><a href="/per-propietaris.html">Per a propietaris</a></li>
+      <li><a href="/per-immobiliaries.html">Per a immobiliàries</a></li>
+      <li><a href="/qui-som.html">Qui som</a></li>
+      <li><a href="/contacte.html" aria-current="page">Contacte</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <a href="/contacte.html" aria-current="true">CA</a>
+        <a href="/es/contacto.html">ES</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Contacte</span>
+      <h1>Explica'ns el teu cas</h1>
+      <p class="lede">Ja siguis propietari d'un pis estancat o treballis en una immobiliària, respon el formulari i et contactarem en menys de 48 hores.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid grid-2">
+      <div>
+        <form id="contact-form"
+              action="https://formspree.io/f/XXXXXXX"
+              method="POST"
+              data-msg-success="Gràcies. Hem rebut el teu missatge i et contactarem en menys de 48 hores."
+              data-msg-error="No hem pogut enviar el formulari. Prova-ho de nou o escriu-nos a info@refem.es."
+              data-msg-config="El formulari encara no està connectat a cap destinatari. Configura l'endpoint a contacte.html (vegeu README).">
+          <div class="form-grid">
+            <div>
+              <label for="nom">Nom i cognoms *</label>
+              <input type="text" id="nom" name="nom" required autocomplete="name">
+            </div>
+            <div>
+              <label for="telefon">Telèfon *</label>
+              <input type="tel" id="telefon" name="telefon" required autocomplete="tel">
+            </div>
+            <div>
+              <label for="email">Correu electrònic *</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div>
+              <label for="perfil">Ets propietari o immobiliària? *</label>
+              <select id="perfil" name="perfil" required>
+                <option value="">Selecciona una opció</option>
+                <option value="Propietari">Propietari d'un pis</option>
+                <option value="Immobiliaria">Immobiliària</option>
+                <option value="Altres">Altres</option>
+              </select>
+            </div>
+            <div>
+              <label for="adreca">Adreça del pis (opcional)</label>
+              <input type="text" id="adreca" name="adreca" autocomplete="street-address">
+              <p class="field-hint">Només si ja tens un pis concret en ment.</p>
+            </div>
+            <div>
+              <label for="missatge">Missatge</label>
+              <textarea id="missatge" name="missatge" rows="4"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+            <div class="form-status" role="status" aria-live="polite"></div>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <div class="card">
+          <h3>Altres vies de contacte</h3>
+          <p class="text-muted">Correu: <a href="mailto:info@refem.es">info@refem.es</a></p>
+          <p class="text-muted">Ubicació: Olot, La Garrotxa, Catalunya</p>
+          <p class="text-muted">Responem de dilluns a divendres, en menys de 48 hores laborables.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Refem</h4>
+        <p>Revaloritzem pisos estancats a Olot i la Garrotxa mitjançant reformes cosmètiques finançades, sense comprar la vivenda.</p>
+      </div>
+      <div>
+        <h4>Navegació</h4>
+        <ul class="footer-links">
+          <li><a href="/com-funciona.html">Com funciona</a></li>
+          <li><a href="/per-propietaris.html">Per a propietaris</a></li>
+          <li><a href="/per-immobiliaries.html">Per a immobiliàries</a></li>
+          <li><a href="/qui-som.html">Qui som</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacte</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:info@refem.es">info@refem.es</a></li>
+          <li>Olot, La Garrotxa</li>
+          <li><a href="/contacte.html">Formulari de contacte</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Refem</span>
+      <span>Olot, La Garrotxa, Catalunya</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="/js/main.js"></script>
+</body>
+</html>
