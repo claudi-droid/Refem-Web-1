@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://refem.es/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/"/>
+  </url>
+  <url>
+    <loc>https://refem.es/com-funciona.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/com-funciona.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/como-funciona.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/per-propietaris.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/per-propietaris.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/para-propietarios.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/per-immobiliaries.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/per-immobiliaries.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/para-inmobiliarias.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/qui-som.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/qui-som.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/sobre-refem.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/contacte.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/contacte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/contacto.html"/>
+  </url>
+
+  <url>
+    <loc>https://refem.es/es/</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/"/>
+  </url>
+  <url>
+    <loc>https://refem.es/es/como-funciona.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/com-funciona.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/como-funciona.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/es/para-propietarios.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/per-propietaris.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/para-propietarios.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/es/para-inmobiliarias.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/per-immobiliaries.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/para-inmobiliarias.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/es/sobre-refem.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/qui-som.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/sobre-refem.html"/>
+  </url>
+  <url>
+    <loc>https://refem.es/es/contacto.html</loc>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://refem.es/contacte.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://refem.es/es/contacto.html"/>
+  </url>
+
+</urlset>
