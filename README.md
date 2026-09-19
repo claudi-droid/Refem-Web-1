@@ -1,6 +1,6 @@
-# Refem — Web
+# Refem Valor — Web
 
-Web estática (HTML/CSS/JS, sin build ni backend) de Refem, empresa de
+Web estática (HTML/CSS/JS, sin build ni backend) de Refem Valor, empresa de
 revalorización de pisos en Olot i la Garrotxa.
 
 - Català a la arrel (`/`).
@@ -37,7 +37,7 @@ Son ficheros estáticos: sube la carpeta completa a la raíz del hosting
 (vía FTP, panel de archivos, o el método que use tu proveedor). No requiere
 Node, PHP ni base de datos.
 
-Apunta el dominio **refem.es** a ese hosting (registro A/CNAME según indique
+Apunta el dominio **refemvalor.com** a ese hosting (registro A/CNAME según indique
 tu proveedor) y confirma que sirve `index.html` como página de inicio.
 
 ## Configurar el formulario de contacto
@@ -48,7 +48,7 @@ usa [Formspree](https://formspree.io) como ejemplo.
 
 Pasos:
 
-1. Crea una cuenta gratuita en https://formspree.io con `info@refem.es`.
+1. Crea una cuenta gratuita en https://formspree.io con `info@refemvalor.com`.
 2. Crea un formulario nuevo y copia el endpoint que te da (tipo
    `https://formspree.io/f/abcdwxyz`).
 3. Sustituye `https://formspree.io/f/XXXXXXX` por ese endpoint en **dos**
