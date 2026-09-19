@@ -276,39 +276,8 @@ p { margin: 0 0 1em; }
   padding: 72px 0 56px;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 48px;
-  align-items: center;
-}
-
-.hero-figure {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: 28px;
-}
-
-.hero-figure dl {
-  margin: 0;
-  display: grid;
-  gap: 20px;
-}
-
-.hero-figure dt {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--color-text-muted);
-  margin-bottom: 4px;
-}
-
-.hero-figure dd {
-  margin: 0;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--color-primary);
+.hero-solo {
+  max-width: 720px;
 }
 
 /* Cards / grids */
@@ -544,7 +513,6 @@ input:focus, textarea:focus {
 /* Responsive */
 
 @media (max-width: 860px) {
-  .hero-grid { grid-template-columns: 1fr; }
   .grid-3 { grid-template-columns: 1fr; }
   .grid-2 { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 24px; }
