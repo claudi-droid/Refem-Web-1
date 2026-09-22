@@ -441,6 +441,10 @@ input:focus, textarea:focus {
   margin-top: 4px;
 }
 
+.is-hidden {
+  display: none;
+}
+
 .form-status {
   font-size: 0.95rem;
   font-weight: 600;
