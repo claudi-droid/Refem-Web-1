@@ -16,6 +16,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   var status = form.querySelector(".form-status");
 
+  var perfilSelect = form.querySelector("#perfil");
+  var altresWrap = form.querySelector("#perfil-altres-wrap");
+  var altresInput = form.querySelector("#perfil-altres");
+
+  if (perfilSelect && altresWrap && altresInput) {
+    perfilSelect.addEventListener("change", function () {
+      var selectedOption = perfilSelect.options[perfilSelect.selectedIndex];
+      var isOther = selectedOption && selectedOption.dataset.other === "true";
+      altresWrap.classList.toggle("is-hidden", !isOther);
+      altresInput.required = isOther;
+      if (!isOther) altresInput.value = "";
+    });
+  }
+
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
