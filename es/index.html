@@ -13,6 +13,7 @@
 <link rel="icon" href="../assets/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/antes-despues.css">
 </head>
 <body>
 
@@ -91,6 +92,82 @@
     </div>
   </section>
 
+  <section class="section section-alt" id="antes-despues">
+    <div class="container">
+      <span class="eyebrow">Caso real</span>
+      <h2>Nuestro primer piso: antes y después</h2>
+      <p class="lede">Piso en Olot reformado por nosotros. Desliza cada imagen para comparar.</p>
+      <div class="ad-grid">
+        <figure class="ad-item">
+          <div class="ad">
+            <img src="../assets/antes-despues/salon-despues.jpg" alt="Salón, después de la reforma" loading="lazy">
+            <img class="ad-antes" src="../assets/antes-despues/salon-antes.jpg" alt="Salón, antes de la reforma (captura de vídeo)" loading="lazy">
+            <span class="ad-tag ad-tag-antes">ANTES</span>
+            <span class="ad-tag ad-tag-despues">DESPUÉS</span>
+            <div class="ad-linea"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después: salón">
+          </div>
+          <figcaption>Salón <span>· antes: captura de vídeo</span></figcaption>
+        </figure>
+        <figure class="ad-item">
+          <div class="ad">
+            <img src="../assets/antes-despues/cocina-despues.jpg" alt="Cocina, después de la reforma" loading="lazy">
+            <img class="ad-antes" src="../assets/antes-despues/cocina-antes.jpg" alt="Cocina, antes de la reforma (captura de vídeo)" loading="lazy">
+            <span class="ad-tag ad-tag-antes">ANTES</span>
+            <span class="ad-tag ad-tag-despues">DESPUÉS</span>
+            <div class="ad-linea"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después: cocina">
+          </div>
+          <figcaption>Cocina <span>· antes: captura de vídeo</span></figcaption>
+        </figure>
+        <figure class="ad-item">
+          <div class="ad">
+            <img src="../assets/antes-despues/bano-despues.jpg" alt="Baño, después de la reforma" loading="lazy">
+            <img class="ad-antes" src="../assets/antes-despues/bano-antes.jpg" alt="Baño, antes de la reforma (captura de vídeo)" loading="lazy">
+            <span class="ad-tag ad-tag-antes">ANTES</span>
+            <span class="ad-tag ad-tag-despues">DESPUÉS</span>
+            <div class="ad-linea"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después: baño">
+          </div>
+          <figcaption>Baño <span>· antes: captura de vídeo</span></figcaption>
+        </figure>
+        <figure class="ad-item">
+          <div class="ad">
+            <img src="../assets/antes-despues/pasillo-despues.jpg" alt="Pasillo, después de la reforma" loading="lazy">
+            <img class="ad-antes" src="../assets/antes-despues/pasillo-antes.jpg" alt="Pasillo, antes de la reforma (captura de vídeo)" loading="lazy">
+            <span class="ad-tag ad-tag-antes">ANTES</span>
+            <span class="ad-tag ad-tag-despues">DESPUÉS</span>
+            <div class="ad-linea"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después: pasillo">
+          </div>
+          <figcaption>Pasillo <span>· antes: captura de vídeo</span></figcaption>
+        </figure>
+        <figure class="ad-item">
+          <div class="ad">
+            <img src="../assets/antes-despues/dormitorio-despues.jpg" alt="Dormitorio, después de la reforma" loading="lazy">
+            <img class="ad-antes" src="../assets/antes-despues/dormitorio-antes.jpg" alt="Dormitorio, antes de la reforma (captura de vídeo)" loading="lazy">
+            <span class="ad-tag ad-tag-antes">ANTES</span>
+            <span class="ad-tag ad-tag-despues">DESPUÉS</span>
+            <div class="ad-linea"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después: dormitorio">
+          </div>
+          <figcaption>Dormitorio <span>· antes: captura de vídeo</span></figcaption>
+        </figure>
+        <figure class="ad-item">
+          <div class="ad">
+            <img src="../assets/antes-despues/entrada-despues.jpg" alt="Entrada, después de la reforma" loading="lazy">
+            <img class="ad-antes" src="../assets/antes-despues/entrada-antes.jpg" alt="Entrada, antes de la reforma (captura de vídeo)" loading="lazy">
+            <span class="ad-tag ad-tag-antes">ANTES</span>
+            <span class="ad-tag ad-tag-despues">DESPUÉS</span>
+            <div class="ad-linea"></div>
+            <input type="range" min="0" max="100" value="50" aria-label="Comparar antes y después: entrada">
+          </div>
+          <figcaption>Entrada <span>· antes: captura de vídeo</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container grid grid-2">
       <div class="card">
@@ -142,6 +219,7 @@
 </footer>
 
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="../js/antes-despues.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>
